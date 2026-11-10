@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: dccapacity
+Version: 1.0.0
+Summary: Capacity planning for a data center: space, power and cooling, forecasts of when each one runs out, and what-if placement, checked against a literal implementation and a synthetic ground truth.
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=2.0
+Requires-Dist: matplotlib>=3.9
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+Requires-Dist: pytest-cov>=5; extra == "dev"
+Requires-Dist: ruff>=0.4; extra == "dev"
+Requires-Dist: mypy>=1.10; extra == "dev"
+Dynamic: license-file
+
+# dccap: capacity planning for a data center
+
+Pre-measurement build: the measurements and the final README come with the next version.
