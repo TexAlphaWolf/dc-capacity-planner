@@ -19,3 +19,4 @@ dist/
 results*/
 dccap-out/
 fail*.txt
+*.egg-info/
